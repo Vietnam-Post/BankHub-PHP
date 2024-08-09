@@ -7,7 +7,7 @@ Kiên Nguyễn
 ## Installation
 To install the package, run the following command:
 ```bash
-composer require tkien/bankhub
+composer require vnpost/bankhub
 ```
 
 ## Configuration
