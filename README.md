@@ -14,7 +14,7 @@ composer require vnpost/bankhub
 ### Step 1: Publish Configuration
 Publish the configuration file using the following command:
 ```bash
-php artisan vendor:publish --provider="Tkien\BankHub\BankHubServiceProvider"
+php artisan vendor:publish --provider="BankHub\BankHubServiceProvider"
 ```
 
 ### Step 2: Update .env File
