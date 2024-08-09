@@ -1,6 +1,6 @@
 {
     "name": "vnpost/bankhub",
-    "version": "1.0.4",
+    "version": "1.0.2",
     "description": "A Laravel package for BankHub API integration",
     "type": "library",
     "require": {
