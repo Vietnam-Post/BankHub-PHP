@@ -60,14 +60,14 @@ class BankHubClient
         return $this->request('grant/exchange', 'POST', $data);
     }
 
-    public function grantInvalidate($data)
+    public function grantInvalidate()
     {
-        return $this->request('grant/invalidate', 'POST', $data);
+        return $this->request('grant/invalidate', 'POST');
     }
 
-    public function grantRemove($data)
+    public function grantRemove()
     {
-        return $this->request('grant/remove', 'POST', $data);
+        return $this->request('grant/remove', 'POST');
     }
 
     // Identity Endpoint
