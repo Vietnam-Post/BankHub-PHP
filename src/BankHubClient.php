@@ -1,4 +1,12 @@
 <?php
+/******************************************************************************
+ * @Author                : KienNguyen<letvn.com@gmail.com>                   *
+ * @CreatedDate           : 2024-08-30 16:42:02                               *
+ * @LastEditors           : KienNguyen<letvn.com@gmail.com>                   *
+ * @LastEditDate          : 2024-08-30 16:42:15                               *
+ * @FilePath              : packages/bankhub/src/BankHubServiceProvider.php   *
+ * @CopyRight             : VietNamPost (vietnampost.vn)                      *
+ *****************************************************************************/
 
 namespace BankHub;
 
@@ -68,6 +76,12 @@ class BankHubClient
     public function grantRemove()
     {
         return $this->request('grant/remove', 'POST');
+    }
+
+    // Finance Services List
+    public function FinanceServices()
+    {
+        return $this->request('fi-services');
     }
 
     // Identity Endpoint
